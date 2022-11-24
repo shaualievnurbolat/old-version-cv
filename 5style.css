@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    background-color: #060606;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 50px 0;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+hr {
+    height: 3px;
+    border: none;
+    background-color: #fff;
+    margin: 10px 0;
+}
