@@ -11,6 +11,7 @@ ul, li {
 body {
     font-family: 'JetBrains Mono', monospace;
     font-size: 18px;
+    background-color: #050505;
 }
 
 a {
@@ -52,7 +53,16 @@ hr {
 
 .header {
     padding: 50px 0;
-    height: 100vh;
-    background-color: #050505;
     color: #fff;
+}
+
+.header__wrapper {
+    color: #000;
+    background-color: #fff;
+    width: 800px;
+    margin: 0 auto;
+    height: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
 }

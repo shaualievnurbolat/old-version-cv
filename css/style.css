@@ -69,29 +69,50 @@ a {
 
 /*hobby*/
 .hobby {
-    height: 100vh;
-    padding: 50px 0;
+    padding: 50px 0 150px 0;
+    height: 600px;
     background-color: #FAFAFA;
 }
 .hobby h2 {
     font-size: 32px;
 }
 .hobby__wrapper {
+    width: 1000px;
+    height: 300px;
+    padding: 40px;
+    /* background-color: #CCCCCC; */
+    border-radius: 10px;
+    box-shadow: rgb(204 204 204) 0px 0px, rgb(204 204 204) 0.8em 11px 2.5em;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    transition: .5s all;
+}
+.hobby__wrapper:hover {
+    background-color: #050505;
+    width: 1020px;
+    height: 320px;
+    color: #fff;
+    box-shadow: none;
+}
+.hobby__wrapper ol {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 }
-.hobby__inner li{
+.hobby__wrapper li{
     font-size: 24px;
-    margin-top: 10px;
 }
 
 /*experience*/
 .exp {
-    height: 100vh;
-    padding: 50px 0;
+    padding: 50px 0 150px 0;
     background-color: #000000;
     color: #fff;
+    height: 100vh;
 }
 
 .exp h2 {
@@ -99,19 +120,23 @@ a {
 }
 
 .exp__wrapper {
+    width: 1000px;
+    height: 300px;
+    padding: 40px;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: 0 auto;
     display: flex;
+    margin-top: 100px;
     align-items: center;
-}
-.exp__wrapper img {
-    width: 600px;
+    justify-content: center;
 }
 
-.exp__inner table {
+.exp__wrapper table {
     width: 400px;
     height: 200px;
-    border: 2px solid #fff;
-    color: #fff;
-    margin-left: 100px;
+    border: 2px solid #000;
+    color: #000;
 }
 
 /*contacts*/
